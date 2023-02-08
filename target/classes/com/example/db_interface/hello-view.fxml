@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #f1f1f1;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.db_interface.HelloController">
+   <children>
+      <ImageView fitHeight="302.0" fitWidth="283.0" layoutX="417.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo_2022-11-22_14-58-15%20(2).jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="287.0" layoutY="67.0" prefHeight="166.0" prefWidth="141.0" style="-fx-background-color: #f1f1f1f1;">
+         <children>
+            <AnchorPane layoutX="-6.0" prefHeight="53.0" prefWidth="57.0" style="-fx-background-color: #151918;" />
+            <ImageView fitHeight="151.0" fitWidth="132.0" layoutX="2.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_2022-11-22_14-58-15.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Text layoutX="6.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLOTHING SHOP">
+         <font>
+            <Font name="Modern No. 20" size="37.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="344.0" layoutY="227.0" prefHeight="159.0" prefWidth="161.0" style="-fx-background-color: #f1f1f1f1;">
+         <children>
+            <AnchorPane layoutX="111.0" layoutY="111.0" prefHeight="54.0" prefWidth="58.0" style="-fx-background-color: #151918;" />
+            <ImageView fitHeight="151.0" fitWidth="116.0" layoutX="44.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_2022-11-22_14-58-16%20(2).jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="14.0" layoutY="47.0" prefHeight="345.0" prefWidth="247.0" style="-fx-background-color: #151918;">
+         <children>
+            <AnchorPane layoutX="14.0" layoutY="13.0" prefHeight="320.0" prefWidth="220.0" style="-fx-background-color: #f1f1f1;">
+               <children>
+                  <PasswordField fx:id="passwordfield" layoutX="16.0" layoutY="97.0" prefHeight="26.0" prefWidth="187.0" promptText="Пароль">
+                     <font>
+                        <Font name="Sitka Small" size="11.0" />
+                     </font>
+                  </PasswordField>
+                  <Text layoutY="32.0" lineSpacing="12.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Авторизация" textAlignment="CENTER" wrappingWidth="220.80000000000007">
+                     <font>
+                        <Font name="Sitka Small" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#5b5b5b" layoutX="16.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Нет аккаунта?" textAlignment="CENTER" wrappingWidth="187.20000000000005">
+                     <font>
+                        <Font name="Sitka Small" size="12.0" />
+                     </font>
+                  </Text>
+                  <Button fx:id="loginSignUpButton" layoutX="16.0" layoutY="282.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="187.0" style="-fx-background-color: #f1f1f1; -fx-border-color: #171819;" text="Регистрация">
+                     <font>
+                        <Font name="Sitka Small Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="authSignInButton" layoutX="16.0" layoutY="152.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="187.0" style="-fx-background-color: #f1f1f1; -fx-border-color: #171819;" text="Вход">
+                     <font>
+                        <Font name="Sitka Small Bold" size="14.0" />
+                     </font>
+                  </Button>
+                  <TextField fx:id="loginfield" layoutX="16.0" layoutY="49.0" prefHeight="26.0" prefWidth="187.0" promptText="Логин">
+                     <font>
+                        <Font name="Sitka Small" size="11.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

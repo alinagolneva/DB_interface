@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #f1f1f1;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.db_interface.RegistrController">
+    <children>
+        <Text layoutX="6.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLOTHING SHOP">
+            <font>
+                <Font name="Modern No. 20" size="37.0" />
+            </font>
+        </Text>
+        <AnchorPane layoutX="344.0" layoutY="227.0" prefHeight="159.0" prefWidth="161.0" style="-fx-background-color: #f1f1f1f1;" />
+        <Button fx:id="registerButton" layoutX="253.0" layoutY="341.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="181.0" style="-fx-background-color: #f1f1f1; -fx-border-color: #171819;" text="Зарегистрироваться">
+            <font>
+                <Font name="Sitka Small Bold" size="14.0" />
+            </font>
+        </Button>
+      <TextField fx:id="setName" layoutX="19.0" layoutY="76.0" prefHeight="30.0" prefWidth="320.0" promptText="Введите имя">
+         <font>
+            <Font name="Sitka Small" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="setAddress" layoutX="19.0" layoutY="136.0" prefHeight="30.0" prefWidth="320.0" promptText="Введите адрес">
+         <font>
+            <Font name="Sitka Small" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="setLogin" layoutX="19.0" layoutY="196.0" prefHeight="30.0" prefWidth="320.0" promptText="Придумайте логин">
+         <font>
+            <Font name="Sitka Small" size="12.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="setPassword" layoutX="19.0" layoutY="254.0" prefHeight="30.0" prefWidth="320.0" promptText="Придумайте пароль">
+         <font>
+            <Font name="Sitka Small" size="12.0" />
+         </font>
+      </PasswordField>
+      <ImageView fitHeight="285.0" fitWidth="320.0" layoutX="415.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo_2022-11-22_14-58-15%20(2).jpg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

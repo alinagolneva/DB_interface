@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #f1f1f1;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.db_interface.SearchFalse">
+    <children>
+        <Text layoutX="192.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Данного товара в наличии нет." wrappingWidth="424.0836486816406">
+            <font>
+                <Font name="Sitka Small" size="18.0" />
+            </font>
+        </Text>
+      <AnchorPane layoutX="-13.0" layoutY="254.0" prefHeight="132.0" prefWidth="152.0" style="-fx-background-color: #151719;" />
+      <AnchorPane layoutX="206.0" layoutY="279.0" prefHeight="122.0" prefWidth="105.0" style="-fx-background-color: #151719;" />
+      <AnchorPane layoutX="395.0" layoutY="254.0" prefHeight="122.0" prefWidth="98.0" style="-fx-background-color: #151719;" />
+      <ImageView fitHeight="132.0" fitWidth="130.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo_2022-11-22_14-58-15%20(2).jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="132.0" fitWidth="125.0" layoutX="228.0" layoutY="254.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo_2022-11-22_14-58-15.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="132.0" fitWidth="105.0" layoutX="413.0" layoutY="267.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@photo_2022-11-22_14-58-16%20(2).jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="601.0" layoutY="268.0" prefHeight="132.0" prefWidth="105.0" style="-fx-background-color: #151719;">
+         <children>
+            <ImageView fitHeight="132.0" fitWidth="105.0" layoutX="-13.0" layoutY="-13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@photo_2022-11-22_14-58-16.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="-2.0" layoutY="301.0" prefHeight="38.0" prefWidth="708.0" style="-fx-background-color: #ffffff;">
+         <children>
+              <Text layoutX="196.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLOTHING SHOP">
+                  <font>
+                      <Font name="Modern No. 20" size="37.0" />
+                  </font>
+              </Text>
+         </children>
+      </AnchorPane>
+      <Text fx:id="namePr" layoutX="109.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="243.2000274658203">
+         <font>
+            <Font name="Sitka Small" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="sizePr" layoutX="230.0" layoutY="120.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="243.2000274658203">
+         <font>
+            <Font name="Sitka Small" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="pricePr" layoutX="84.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="243.2000274658203">
+         <font>
+            <Font name="Sitka Small" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="ratingPr" layoutX="109.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="243.2000274658203">
+         <font>
+            <Font name="Sitka Small" size="16.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>

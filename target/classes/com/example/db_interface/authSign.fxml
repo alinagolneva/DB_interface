@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #f1f1f1;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.db_interface.CatalogController">
+    <children>
+      <TextField fx:id="search" layoutX="24.0" layoutY="14.0" prefHeight="13.0" prefWidth="235.0" promptText="Поиск" />
+      <Button fx:id="searchButton" layoutX="269.0" layoutY="15.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="74.0" style="-fx-background-color: #f1f1f1; -fx-border-color: #171819;" text="Поиск">
+         <font>
+            <Font name="Sitka Small Bold" size="12.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tableview" layoutX="-1.0" layoutY="91.0" prefHeight="276.0" prefWidth="700.0" />
+      <Text fx:id="t1" layoutX="24.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="382.1366729736328">
+         <font>
+            <Font name="Sitka Small" size="14.0" />
+         </font>
+      </Text>
+      <Text fx:id="id_goods" layoutX="398.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="74.40000000000009">
+         <font>
+            <Font name="Sitka Small" size="14.0" />
+         </font>
+      </Text>
+      <Button fx:id="goToCart" layoutX="504.0" layoutY="15.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="181.0" style="-fx-background-color: #f1f1f1; -fx-border-color: #171819;" text="Перейти к корзине">
+         <font>
+            <Font name="Sitka Small Bold" size="12.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
